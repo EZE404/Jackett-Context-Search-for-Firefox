@@ -3,6 +3,12 @@
 ## Adds a context menu entry to search with Jackett
 
 ### Changelog
+
+> Version 0.2
+>
+> * Signed without useless files
+> * Added ID to manifest in source code
+
 > Version 0.1
 >
 > * Uses the default host and port http://127.0.0.1:9117

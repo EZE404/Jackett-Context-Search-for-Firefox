@@ -1,19 +1,24 @@
 {
 	"manifest_version": 2,
 	"name": "Jackett Context Search for Firefox",
-	"version": "0.1",
+	"version": "0.2",
 	"description": "Adds a context menu entry to search with Jackett",
-  "author": "EZE404",
-  "developer": {
-  "name": "Franco Ezequiel",
-  "url": "https://github.com/EZE404"
-  },
+	"author": "EZE404",
+	"developer": {
+		"name": "Franco Ezequiel",
+		"url": "https://github.com/EZE404"
+	},
 	"icons": {
 		"48": "icons/jackett-256.svg",
-    "96": "icons/jackett-256.svg"
+		"96": "icons/jackett-256.svg"
 	},
 	"background": {
 		"scripts": ["jackett.js"]
 	},
-	"permissions": ["contextMenus"]
+	"permissions": ["contextMenus"],
+	"browser_specific_settings": {
+		"gecko": {
+			"id": "{d76d7b1d-dc40-4d56-8871-c1cc16d1a478}"
+		}
+	}
 }
