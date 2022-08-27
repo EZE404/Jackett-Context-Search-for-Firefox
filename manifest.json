@@ -1,0 +1,14 @@
+{
+	"manifest_version": 2,
+	"name": "Jackett Context Search for Firefox",
+	"version": "0.1",
+	"description": "Adds a context menu entry to search with Jackett",
+	"icons": {
+		"48": "icons/jackett-256.svg",
+    "96": "icons/jackett-256.svg"
+	},
+	"background": {
+		"scripts": ["jackett.js"]
+	},
+	"permissions": ["contextMenus"]
+}
